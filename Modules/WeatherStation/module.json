@@ -1,0 +1,13 @@
+{
+    "name": "WeatherStation",
+    "alias": "weatherstation",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\WeatherStation\\Providers\\WeatherStationServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
