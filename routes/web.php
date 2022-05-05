@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 // Route::group(['middleware' => ['auth']], function () {
 
-	Route::get('/', 		    [UserController::class, 'login'])->name('login');
+	// Route::get('/', 		    [UserController::class, 'login'])->name('login');
 	Route::get('/login', 		[UserController::class, 'login'])->name('login');
 	Route::get('/forgot', 		[UserController::class, 'forgot'])->name('forgot');
 	Route::post('/do_forgot', 	[UserController::class, 'sendforgot'])->name('forgot');
@@ -29,5 +29,5 @@ use Illuminate\Support\Facades\Route;
 	Route::get('/profile', 			[UserController::class, 'profile'])->middleware('auth');
 	Route::post('/changepassword', 	[UserController::class, 'changepassword'])->middleware('auth');
 
-	
+
 // });
