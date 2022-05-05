@@ -21,15 +21,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="{{asset('lib')}}/animate/animate.min.css" rel="stylesheet">
-    <link href="{{asset('lib')}}/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="{{asset('lib')}}/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="{{secure_asset('lib')}}/animate/animate.min.css" rel="stylesheet">
+    <link href="{{secure_asset('lib')}}/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="{{secure_asset('lib')}}/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="{{asset('css')}}/bootstrap.min.css" rel="stylesheet">
+    <link href="{{secure_asset('css')}}/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="{{asset('css')}}/style.css" rel="stylesheet">
+    <link href="{{secure_asset('css')}}/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -70,7 +70,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="text-primary m-0"><img class="me-3" src="{{asset('img')}}/icons/icon-1.png" alt="Icon">Ulin Yuk</h1>
+            <h1 class="text-primary m-0"><img class="me-3" src="{{secure_asset('img')}}/icons/icon-1.png" alt="Icon">Ulin Yuk</h1>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -112,8 +112,8 @@
     <!-- Carousel Start -->
     <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item position-relative" data-dot="<img src='{{asset('img')}}/carousel/carousel-2.png'>">
-                <img class="img-fluid" src="{{asset('img')}}/carousel/carousel-2.png" alt="">
+            <div class="owl-carousel-item position-relative" data-dot="<img src='{{secure_asset('img')}}/carousel/carousel-2.png'>">
+                <img class="img-fluid" src="{{secure_asset('img')}}/carousel/carousel-2.png" alt="">
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -126,8 +126,8 @@
                     </div>
                 </div>
             </div>
-            <div class="owl-carousel-item position-relative" data-dot="<img src='{{asset('img')}}/carousel/carousel-1.png'>">
-                <img class="img-fluid" src="{{asset('img')}}/carousel/carousel-1.png" alt="">
+            <div class="owl-carousel-item position-relative" data-dot="<img src='{{secure_asset('img')}}/carousel/carousel-1.png'>">
+                <img class="img-fluid" src="{{secure_asset('img')}}/carousel/carousel-1.png" alt="">
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -140,8 +140,8 @@
                     </div>
                 </div>
             </div>
-            <div class="owl-carousel-item position-relative" data-dot="<img src='{{asset('img')}}/carousel/carousel-4.png'>">
-                <img class="img-fluid" src="{{asset('img')}}/carousel/carousel-4.png" alt="">
+            <div class="owl-carousel-item position-relative" data-dot="<img src='{{secure_asset('img')}}/carousel/carousel-4.png'>">
+                <img class="img-fluid" src="{{secure_asset('img')}}/carousel/carousel-4.png" alt="">
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -202,8 +202,8 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="about-img">
-                        <img class="img-fluid" src="{{asset('img')}}/about/about-1.png" alt="">
-                        <img class="img-fluid" src="{{asset('img')}}/about/about-2.png" alt="">
+                        <img class="img-fluid" src="{{secure_asset('img')}}/about/about-1.png" alt="">
+                        <img class="img-fluid" src="{{secure_asset('img')}}/about/about-2.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
@@ -239,9 +239,9 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="{{asset('img')}}/service/service-1.png" alt="">
+                        <img class="bg-img" src="{{secure_asset('img')}}/service/service-1.png" alt="">
                         <div class="service-text p-5">
-                            <img class="mb-4" src="{{asset('img')}}/icons/icon-5.png" alt="Icon">
+                            <img class="mb-4" src="{{secure_asset('img')}}/icons/icon-5.png" alt="Icon">
                             <h3 class="mb-3">Destinasi</h3>
                             <p class="mb-4">Temukan destinasi wisata favorit anda disini, mulai dari destinasi wisata alam, pendidikan, sejarah, budaya, religi dan lain-lain. Semua kami rekomendasikan kepada anda.</p>
                             <a class="btn" href="/destinasi.html"><i class="fa fa-plus text-primary me-3"></i>Read More</a>
@@ -250,9 +250,9 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="{{asset('img')}}/service/service-2.png" alt="">
+                        <img class="bg-img" src="{{secure_asset('img')}}/service/service-2.png" alt="">
                         <div class="service-text p-5">
-                            <img class="mb-4" src="{{asset('img')}}/icons/icon-6.png" alt="Icon">
+                            <img class="mb-4" src="{{secure_asset('img')}}/icons/icon-6.png" alt="Icon">
                             <h3 class="mb-3">Kuliner</h3>
                             <p class="mb-4">Semua rekomendasi kuliner favorit anda dapat anda temukan disini, mulai dari aneka minuman, aneka kue, cemilan atau snack, serta street food.</p>
                             <a class="btn" href="/kuliner.html"><i class="fa fa-plus text-primary me-3"></i>Read More</a>
@@ -261,9 +261,9 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="{{asset('img')}}/service/service-3.png" alt="">
+                        <img class="bg-img" src="{{secure_asset('img')}}/service/service-3.png" alt="">
                         <div class="service-text p-5">
-                            <img class="mb-4" src="{{asset('img')}}/icons/icon-7.png" alt="Icon">
+                            <img class="mb-4" src="{{secure_asset('img')}}/icons/icon-7.png" alt="Icon">
                             <h3 class="mb-3">Chatbot</h3>
                             <p class="mb-4">Konsultasikan destinasi serta kuliner yang anda inginkan dengan fitur layanan Chat Bot kami. Kami menghadirkan berbagai rekomendasi destinasi, serta kuliner favorit anda.</p>
                             <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
@@ -552,7 +552,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('img')}}/team/bella.png" alt="">
+                            <img class="img-fluid" src="{{secure_asset('img')}}/team/bella.png" alt="">
                             <div class="team-social text-center">
                                 <a class="btn btn-square" href="https://linkedin.com/in/bella-septina-ika-hartanti/"><i class="fab fa-linkedin"></i></a>
                             </div>
@@ -566,7 +566,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('img')}}/team/rusydi.png" alt="">
+                            <img class="img-fluid" src="{{secure_asset('img')}}/team/rusydi.png" alt="">
                             <div class="team-social text-center">
                                 <a class="btn btn-square" href="https://linkedin.com/in/rusydimuhammad"><i class="fab fa-linkedin"></i></a>
                                 <a class="btn btn-square" href="https://www.instagram.com/rusydimuhammad/"><i class="fab fa-instagram"></i></a>
@@ -581,7 +581,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('img')}}/team/fanny.png" alt="">
+                            <img class="img-fluid" src="{{secure_asset('img')}}/team/fanny.png" alt="">
                             <div class="team-social text-center">
                                 <a class="btn btn-square" href="https://www.instagram.com/fannyfbryn_/"><i class="fab fa-instagram"></i></a>
                             </div>
@@ -595,7 +595,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('img')}}/team/ikhwan.png" alt="">
+                            <img class="img-fluid" src="{{secure_asset('img')}}/team/ikhwan.png" alt="">
                             <div class="team-social text-center">
                                 <a class="btn btn-square" href="https://www.linkedin.com/in/muhammad-ikhwan-fathulloh-4a9835165/"><i class="fab fa-linkedin"></i></a>
                                 <a class="btn btn-square" href="https://instagram/ikhwan_fathulloh/"><i class="fab fa-instagram"></i></a>
@@ -610,7 +610,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('img')}}/team/jauhar.png" alt="">
+                            <img class="img-fluid" src="{{secure_asset('img')}}/team/jauhar.png" alt="">
                             <div class="team-social text-center">
                                 <a class="btn btn-square" href="https://www.linkedin.com/in/ananda-jauhar-firdaus-313879189/"><i class="fab fa-linkedin"></i></a>
                                 <a class="btn btn-square" href="https://www.instagram.com/anandajauhar/"><i class="fab fa-instagram"></i></a>
@@ -625,7 +625,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item position-relative">
                         <div class="position-relative">
-                            <img class="img-fluid" src="{{asset('img')}}/team/rafly.png" alt="">
+                            <img class="img-fluid" src="{{secure_asset('img')}}/team/rafly.png" alt="">
                             <div class="team-social text-center">
                                 <a class="btn btn-square" href="https://www.linkedin.com/in/raframput/"><i class="fab fa-linkedin"></i></a>
                                 <a class="btn btn-square" href="https://www.instagram.com/raframput/"><i class="fab fa-instagram"></i></a>
@@ -888,17 +888,17 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="{{asset('lib')}}/wow/wow.min.js"></script>
-    <script src="{{asset('lib')}}/easing/easing.min.js"></script>
-    <script src="{{asset('lib')}}/waypoints/waypoints.min.js"></script>
-    <script src="{{asset('lib')}}/counterup/counterup.min.js"></script>
-    <script src="{{asset('lib')}}/owlcarousel/owl.carousel.min.js"></script>
-    <script src="{{asset('lib')}}/tempusdominus/js/moment.min.js"></script>
-    <script src="{{asset('lib')}}/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="{{asset('lib')}}/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="{{secure_asset('lib')}}/wow/wow.min.js"></script>
+    <script src="{{secure_asset('lib')}}/easing/easing.min.js"></script>
+    <script src="{{secure_asset('lib')}}/waypoints/waypoints.min.js"></script>
+    <script src="{{secure_asset('lib')}}/counterup/counterup.min.js"></script>
+    <script src="{{secure_asset('lib')}}/owlcarousel/owl.carousel.min.js"></script>
+    <script src="{{secure_asset('lib')}}/tempusdominus/js/moment.min.js"></script>
+    <script src="{{secure_asset('lib')}}/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="{{secure_asset('lib')}}/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="{{asset('js')}}/main.js"></script>
+    <script src="{{secure_asset('js')}}/main.js"></script>
 </body>
 
 </html>
