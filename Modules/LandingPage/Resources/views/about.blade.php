@@ -22,8 +22,8 @@
         <div class="row g-5">
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                 <div class="about-img">
-                    <img class="img-fluid" src="{{asset('img')}}/about/about-1.png" alt="">
-                    <img class="img-fluid" src="{{asset('img')}}/about/about-2.png" alt="">
+                    <img class="img-fluid" src="{{secure_asset('img')}}/about/about-1.png" alt="">
+                    <img class="img-fluid" src="{{secure_asset('img')}}/about/about-2.png" alt="">
                 </div>
             </div>
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
@@ -60,7 +60,7 @@
                 <div class="row g-4">
                     <div class="col-12">
                         <div class="d-flex align-items-start">
-                            <img class="flex-shrink-0" src="{{asset('img')}}/icons/icon-2.png" alt="Icon">
+                            <img class="flex-shrink-0" src="{{secure_asset('img')}}/icons/icon-2.png" alt="Icon">
                             <div class="ms-4">
                                 <h3>Design Approach</h3>
                                 <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
@@ -69,7 +69,7 @@
                     </div>
                     <div class="col-12">
                         <div class="d-flex align-items-start">
-                            <img class="flex-shrink-0" src="{{asset('img')}}/icons/icon-3.png" alt="Icon">
+                            <img class="flex-shrink-0" src="{{secure_asset('img')}}/icons/icon-3.png" alt="Icon">
                             <div class="ms-4">
                                 <h3>Innovative Solutions</h3>
                                 <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
@@ -78,7 +78,7 @@
                     </div>
                     <div class="col-12">
                         <div class="d-flex align-items-start">
-                            <img class="flex-shrink-0" src="{{asset('img')}}/icons/icon-4.png" alt="Icon">
+                            <img class="flex-shrink-0" src="{{secure_asset('img')}}/icons/icon-4.png" alt="Icon">
                             <div class="ms-4">
                                 <h3>Project Management</h3>
                                 <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
@@ -89,8 +89,8 @@
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="feature-img">
-                    <img class="img-fluid" src="{{asset('img')}}/about/about-3.png" alt="">
-                    <img class="img-fluid" src="{{asset('img')}}/about/about-4.png" alt="">
+                    <img class="img-fluid" src="{{secure_asset('img')}}/about/about-3.png" alt="">
+                    <img class="img-fluid" src="{{secure_asset('img')}}/about/about-4.png" alt="">
                 </div>
             </div>
         </div>
@@ -111,7 +111,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="team-item position-relative">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{asset('img')}}/team/bella.png" alt="">
+                        <img class="img-fluid" src="{{secure_asset('img')}}/team/bella.png" alt="">
                         <div class="team-social text-center">
                             <a class="btn btn-square" href="https://linkedin.com/in/bella-septina-ika-hartanti/"><i class="fab fa-linkedin"></i></a>
                         </div>
@@ -125,7 +125,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="team-item position-relative">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{asset('img')}}/team/rusydi.png" alt="">
+                        <img class="img-fluid" src="{{secure_asset('img')}}/team/rusydi.png" alt="">
                         <div class="team-social text-center">
                             <a class="btn btn-square" href="https://linkedin.com/in/rusydimuhammad"><i class="fab fa-linkedin"></i></a>
                             <a class="btn btn-square" href="https://www.instagram.com/rusydimuhammad/"><i class="fab fa-instagram"></i></a>
@@ -140,7 +140,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="team-item position-relative">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{asset('img')}}/team/fanny.png" alt="">
+                        <img class="img-fluid" src="{{secure_asset('img')}}/team/fanny.png" alt="">
                         <div class="team-social text-center">
                             <a class="btn btn-square" href="https://www.instagram.com/fannyfbryn_/"><i class="fab fa-instagram"></i></a>
                         </div>
@@ -154,7 +154,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                 <div class="team-item position-relative">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{asset('img')}}/team/ikhwan.png" alt="">
+                        <img class="img-fluid" src="{{secure_asset('img')}}/team/ikhwan.png" alt="">
                         <div class="team-social text-center">
                             <a class="btn btn-square" href="https://www.linkedin.com/in/muhammad-ikhwan-fathulloh-4a9835165/"><i class="fab fa-linkedin"></i></a>
                             <a class="btn btn-square" href="https://instagram/ikhwan_fathulloh/"><i class="fab fa-instagram"></i></a>
@@ -169,7 +169,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                 <div class="team-item position-relative">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{asset('img')}}/team/jauhar.png" alt="">
+                        <img class="img-fluid" src="{{secure_asset('img')}}/team/jauhar.png" alt="">
                         <div class="team-social text-center">
                             <a class="btn btn-square" href="https://www.linkedin.com/in/ananda-jauhar-firdaus-313879189/"><i class="fab fa-linkedin"></i></a>
                             <a class="btn btn-square" href="https://www.instagram.com/anandajauhar/"><i class="fab fa-instagram"></i></a>
@@ -184,7 +184,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="team-item position-relative">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{asset('img')}}/team/rafly.png" alt="">
+                        <img class="img-fluid" src="{{secure_asset('img')}}/team/rafly.png" alt="">
                         <div class="team-social text-center">
                             <a class="btn btn-square" href="https://www.linkedin.com/in/raframput/"><i class="fab fa-linkedin"></i></a>
                             <a class="btn btn-square" href="https://www.instagram.com/raframput/"><i class="fab fa-instagram"></i></a>

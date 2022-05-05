@@ -28,7 +28,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="team-item position-relative">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{asset('img')}}/team/bella.png" alt="">
+                        <img class="img-fluid" src="{{secure_asset('img')}}/team/bella.png" alt="">
                         <div class="team-social text-center">
                             <a class="btn btn-square" href="https://linkedin.com/in/bella-septina-ika-hartanti/"><i class="fab fa-linkedin"></i></a>
                         </div>
@@ -42,7 +42,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="team-item position-relative">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{asset('img')}}/team/rusydi.png" alt="">
+                        <img class="img-fluid" src="{{secure_asset('img')}}/team/rusydi.png" alt="">
                         <div class="team-social text-center">
                             <a class="btn btn-square" href="https://linkedin.com/in/rusydimuhammad"><i class="fab fa-linkedin"></i></a>
                             <a class="btn btn-square" href="https://www.instagram.com/rusydimuhammad/"><i class="fab fa-instagram"></i></a>
@@ -57,7 +57,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="team-item position-relative">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{asset('img')}}/team/fanny.png" alt="">
+                        <img class="img-fluid" src="{{secure_asset('img')}}/team/fanny.png" alt="">
                         <div class="team-social text-center">
                             <a class="btn btn-square" href="https://www.instagram.com/fannyfbryn_/"><i class="fab fa-instagram"></i></a>
                         </div>
@@ -71,7 +71,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                 <div class="team-item position-relative">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{asset('img')}}/team/ikhwan.png" alt="">
+                        <img class="img-fluid" src="{{secure_asset('img')}}/team/ikhwan.png" alt="">
                         <div class="team-social text-center">
                             <a class="btn btn-square" href="https://www.linkedin.com/in/muhammad-ikhwan-fathulloh-4a9835165/"><i class="fab fa-linkedin"></i></a>
                             <a class="btn btn-square" href="https://instagram/ikhwan_fathulloh/"><i class="fab fa-instagram"></i></a>
@@ -86,7 +86,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                 <div class="team-item position-relative">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{asset('img')}}/team/jauhar.png" alt="">
+                        <img class="img-fluid" src="{{secure_asset('img')}}/team/jauhar.png" alt="">
                         <div class="team-social text-center">
                             <a class="btn btn-square" href="https://www.linkedin.com/in/ananda-jauhar-firdaus-313879189/"><i class="fab fa-linkedin"></i></a>
                             <a class="btn btn-square" href="https://www.instagram.com/anandajauhar/"><i class="fab fa-instagram"></i></a>
@@ -101,7 +101,7 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="team-item position-relative">
                     <div class="position-relative">
-                        <img class="img-fluid" src="{{asset('img')}}/team/rafly.png" alt="">
+                        <img class="img-fluid" src="{{secure_asset('img')}}/team/rafly.png" alt="">
                         <div class="team-social text-center">
                             <a class="btn btn-square" href="https://www.linkedin.com/in/raframput/"><i class="fab fa-linkedin"></i></a>
                             <a class="btn btn-square" href="https://www.instagram.com/raframput/"><i class="fab fa-instagram"></i></a>

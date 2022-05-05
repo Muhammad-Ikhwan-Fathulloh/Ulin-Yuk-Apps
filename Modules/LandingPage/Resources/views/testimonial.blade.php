@@ -24,17 +24,17 @@
             <h1 class="display-5 mb-4">Thousands Of Customers Who Trust Us And Our Services</h1>
         </div>
         <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-            <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='{{asset('img')}}/testimonial-1.jpg' alt=''>">
+            <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='{{secure_asset('img')}}/testimonial-1.jpg' alt=''>">
                 <p class="fs-5">Aplikasi yang bagus, fiturnya lengkap, rekomendasi yang diberikan sesuai.</p>
                 <h3>Sarah</h3>
                 <span class="text-primary">Sales Manager</span>
             </div>
-            <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='{{asset('img')}}/testimonial-2.jpg' alt=''>">
+            <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='{{secure_asset('img')}}/testimonial-2.jpg' alt=''>">
                 <p class="fs-5">Banyak pilihan rekomendasi kuliner, tampilannya cukup unik dan menarik, tingkatkan selalu kualitas pelayanan.</p>
                 <h3>Josh</h3>
                 <span class="text-primary">Product Manager</span>
             </div>
-            <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='{{asset('img')}}/testimonial-3.jpg' alt=''>">
+            <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='{{secure_asset('img')}}/testimonial-3.jpg' alt=''>">
                 <p class="fs-5">Berbagai kuliner bisa ditemukan disini, fitur sangat membantu merekomendasikan kuliner Kota Bandung, hasil akurat, terima kasih.</p>
                 <h3>Farhan</h3>
                 <span class="text-primary">UI/UX Designer</span>
