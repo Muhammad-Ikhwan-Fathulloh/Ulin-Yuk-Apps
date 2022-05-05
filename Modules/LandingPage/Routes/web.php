@@ -24,3 +24,9 @@ Route::prefix('destination-place')->group(function () {
 });
 
 Route::get('/', [LandingPageController::class, 'index']);
+Route::get('/about', [LandingPageController::class, 'about']);
+Route::get('/destination', [LandingPageController::class, 'destination']);
+Route::get('/culinary', [LandingPageController::class, 'culinary']);
+Route::get('/team', [LandingPageController::class, 'team']);
+Route::get('/testimonial', [LandingPageController::class, 'testimonial']);
+Route::get('/contact', [LandingPageController::class, 'contact']);

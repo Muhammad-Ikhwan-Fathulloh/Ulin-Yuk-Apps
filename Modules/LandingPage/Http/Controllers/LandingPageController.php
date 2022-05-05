@@ -17,6 +17,36 @@ class LandingPageController extends Controller
         return view('landingpage::index');
     }
 
+    public function about()
+    {
+        return view('landingpage::about');
+    }
+
+    public function destination()
+    {
+        return view('landingpage::destination');
+    }
+
+    public function culinary()
+    {
+        return view('landingpage::culinary');
+    }
+
+    public function team()
+    {
+        return view('landingpage::team');
+    }
+
+    public function testimonial()
+    {
+        return view('landingpage::testimonial');
+    }
+
+    public function contact()
+    {
+        return view('landingpage::contact');
+    }
+
     /**
      * Show the form for creating a new resource.
      * @return Renderable
